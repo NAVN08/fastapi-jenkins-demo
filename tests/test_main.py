@@ -10,4 +10,3 @@ def test_home():
     assert response.json() == {
         "message": "Hello Jenkins CI"
     }
-        print("success")
